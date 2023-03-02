@@ -8,8 +8,8 @@ public class PrimeiroPrograma {
 
         System.out.println(gato);
 
-        Livro livro1 = new Livro(nome;: "O problema dos 3 corpos", numPaginas: 300);
-        System.out.println(livro1);
+        Livro livro= new Livro("O livro", 300);
+        System.out.println(livro);
 
         /*int a = 2;
         int b = 3;
@@ -18,7 +18,7 @@ public class PrimeiroPrograma {
 }
 
 class Livro {
-    private String nome
+    private String nome;
     private Integer numPaginas;
 
     public Livro(String nome, Integer numPaginas) {
